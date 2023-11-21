@@ -1,0 +1,19 @@
+{
+    "name": "vendor/myproject",
+    "description": "How to use Composer in PHP",
+    "authors": [
+        {
+            "name": "emma",
+            "email": "camuschinox@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    }
+}
